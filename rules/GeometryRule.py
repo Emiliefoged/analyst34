@@ -2,8 +2,8 @@ import ifcopenshell
 import ifcopenshell.util.element
 
 def checkRule(model):
-    elements = model.by_type('IfcSlab')  # Henter alle IfcSlab-objekter
-    result = []  # Liste til at gemme volumen for hvert element
+    elements = model.by_type('IfcSlab')  # Gets all IfcSlab objects
+    result = []  # List to save volume for each item
     
     # Variables to sum the volume and CO2 emissions for each category
     laminate_volume = 0
@@ -21,7 +21,7 @@ def checkRule(model):
     tile_density = 4000  # kg/m³
     tile_co2_factor = 0.757  # kgCO2e/kg
 
-    #wood_density = 600  # kg/m³ - ikke relevant da vi regner med anden enhed
+    #wood_density = 600  # kg/m³ - not relevant as we have another another unit for the CO2
     wood_co2_factor = 91.9  # kgCO2e/m3
 
     for element in elements:
