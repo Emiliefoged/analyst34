@@ -14,7 +14,7 @@ A video tutorial is made to illustrate how to use the tool, this is found here: 
 
 https://github.com/user-attachments/assets/9c116d14-51d3-4528-b636-831301fcdb10
 
-Furthermore a Jupitor notebook is made to take you though the code step by step, see A4Tutorial.ipynb.
+Furthermore a Jupitor notebook is made to take you though the code step by step, https://github.com/Emiliefoged/analyst34/blob/main/A4/A4Tutorial.ipynb
 
 **Snapshot of the code:**
 
