@@ -12,6 +12,7 @@ You'll need to know the density [kg/m3] and CO2 emmisions [kgCO2-eq] for every m
 # Tutorials
 A video tutorial is made to illustrate how to use the tool, this is found here: **Insert Link**. Before running the script, make sure that your IFC model has quantities added.
 
+https://github.com/user-attachments/assets/9c116d14-51d3-4528-b636-831301fcdb10
 
 Furthermore a Jupitor notebook is made to take you though the code step by step, see A4Tutorial.ipynb.
 
