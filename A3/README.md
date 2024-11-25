@@ -14,7 +14,7 @@ A video tutorial is made to illustrate how to use the tool, this is found here: 
 
 Furthermore a Jupitor notebook is made to take you though the code step by step. 
 
-Here is a snapshot of the code:
+**Snapshot of the code:**
 
 import ifcopenshell
 import ifcopenshell.util.element
@@ -32,7 +32,7 @@ def checkRule(model):
     tile_co2 = 0
     wood_co2 = 0
 
-   # Densities (kg/m³) and CO2 emissions for each material
+    Densities (kg/m³) and CO2 emissions for each material
     laminate_density = 850  # kg/m³
     laminate_co2_factor = 0.051  # kgCO2e/kg
 
@@ -73,3 +73,5 @@ def checkRule(model):
         result.append(f"Total volume of Wood flooring: {wood_volume} m³, total CO2 contribution from wood flooring: {wood_co2} kgCO2eq")
         
     return result
+
+Copy the code into Blender/Bonsai and run the code.
