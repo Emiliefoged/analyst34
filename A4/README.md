@@ -1,0 +1,2 @@
+# How to identify co2 emissions from flooring in a building 
+This tutorial teaches how to extract the volumes from the model and connect the volume with the corrispondig co2 emmisions factor, to calculate the total carbon emissions from the different flooring in the IFC-file/model. 
